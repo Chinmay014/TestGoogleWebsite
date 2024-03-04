@@ -1,0 +1,14 @@
+{
+    "test1":{
+        "search_query":"Chocolate"
+    },
+    "test2":{
+        "search_query":"Honung"
+    },
+    "test3":{
+        "search_query":"Glas"
+    },
+    "test4":{
+        "search_query":"Tea"
+    }
+}
