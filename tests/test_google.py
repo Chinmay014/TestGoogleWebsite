@@ -7,37 +7,44 @@ from ddt import ddt,data,unpack
 import unittest 
 
 @pytest.mark.usefixtures("setup")
-# @ddt
-class TestGoogleSite:
+@ddt
+class TestGoogleSite(unittest.TestCase):
     log = custLogger()
     log1 = log.customlogger()
     
-    # @data(("Chocolate",))
-    # @unpack
-    def test_search_results(self):
+
+    @data(("Chocolate",),("Coffee",),("Honung",))
+    @unpack
+    def test_search_results(self,search_query):
         lp = LaunchPage(self.driver)
-        search_result = lp.clickSearch("Chocolate")
+        search_result = lp.clickSearch(search_query)
         # print(f"Searching for {query}")
         # test 1: there should be non-zero results
         # find the corresponding element on search result page
 
         result_count = search_result.findResultsCount()
         # driver.close()
-        self.log1.warning(f"found {result_count} results for Chocolate")
+        self.log1.warning(f"found {result_count} results for {search_query}")
         assert result_count>0,"No results"
 
-    # @data(("Chocolate",))
-    # @unpack
-    def test_search_quantity(self):
+    @data(("Chocolate",),("Tea",))
+    @unpack
+    def test_search_quantity(self,search_query):
+        # self.driver = setup
         # test 2: top suggested link contains the searched word atleast 5 times
-        sp = SearchResultPage(self.driver)
+        lp = LaunchPage(self.driver)
+        time.sleep(2)
+        search_result = lp.clickSearch(search_query)
+        # sp = SearchResultPage(self.driver)
         
         top_link = self.driver.find_element(By.XPATH,"//a[h3]")
         current_window = self.driver.current_window_handle
 
-        sp.goToResultPage(top_link)
+        search_result.goToResultPage(top_link)
 
-        page_word_count = sp.countWordOnPage("Chocolate")
+        page_word_count = search_result.countWordOnPage(search_query)
         self.driver.quit()
         assert page_word_count>5
 
+# if __name__=="__main__":
+#     unittest.main()

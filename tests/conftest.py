@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import pytest
 
-@pytest.fixture(scope="class")
+@pytest.fixture(scope="function")
 def setup(request,browser):
     if browser=="chrome":
         service = ChromeService()
@@ -30,6 +30,7 @@ def setup(request,browser):
     driver.find_element(By.XPATH,"//button//div[contains(text(), 'Godkänn alla')]").click() 
     request.cls.driver = driver
     yield driver
+
     # driver.quit()
 
 def pytest_addoption(parser):
