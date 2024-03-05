@@ -1,5 +1,6 @@
 import inspect
 import logging
+import csv
 from openpyxl import workbook,load_workbook
 class custLogger:
     def customlogger(self, loglevel = logging.WARNING):
@@ -26,3 +27,11 @@ class custLogger:
             datalist.append(row)
         return datalist
             
+    def read_data_from_csv(file_name):
+        datalist=[]
+        reader = csv.reader(open(file_name,"r"))
+        # skip reader
+        next(reader)
+        for rows in reader:
+            datalist.append(rows)
+        return datalist

@@ -12,7 +12,7 @@ class TestGoogleSite(unittest.TestCase):
     log = custLogger()
     log1 = log.customlogger()
     
-    @data(*custLogger.read_data_from_excel("F:\\DesktopC\\PythonUltimateCourse\\SoftwareTesting\\TestGoogleWebsite\\TestData\\testdata.xlsx",sheet="Sheet1"))
+    @data(*custLogger.read_data_from_csv("F:\\DesktopC\\PythonUltimateCourse\\SoftwareTesting\\TestGoogleWebsite\\TestData\\testdata.csv"))
     @unpack
     def test_search_results(self,search_query):
         lp = LaunchPage(self.driver)
@@ -26,7 +26,7 @@ class TestGoogleSite(unittest.TestCase):
         self.log1.warning(f"found {result_count} results for {search_query}")
         assert result_count>0,"No results"
 
-    @data(*custLogger.read_data_from_excel("F:\\DesktopC\\PythonUltimateCourse\\SoftwareTesting\\TestGoogleWebsite\\TestData\\testdata.xlsx",sheet="Sheet1"))
+    @data(*custLogger.read_data_from_csv("F:\\DesktopC\\PythonUltimateCourse\\SoftwareTesting\\TestGoogleWebsite\\TestData\\testdata.csv"))
     @unpack
     def test_search_quantity(self,search_query):
         # self.driver = setup
