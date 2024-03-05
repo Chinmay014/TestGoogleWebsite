@@ -12,7 +12,8 @@ class TestGoogleSite(unittest.TestCase):
     log = custLogger()
     log1 = log.customlogger()
     
-    @file_data("../TestData/testdata.yaml")
+    @data(*custLogger.read_data_from_excel("F:\\DesktopC\\PythonUltimateCourse\\SoftwareTesting\\TestGoogleWebsite\\TestData\\testdata.xlsx",sheet="Sheet1"))
+    @unpack
     def test_search_results(self,search_query):
         lp = LaunchPage(self.driver)
         search_result = lp.clickSearch(search_query)
@@ -25,7 +26,8 @@ class TestGoogleSite(unittest.TestCase):
         self.log1.warning(f"found {result_count} results for {search_query}")
         assert result_count>0,"No results"
 
-    @file_data("../TestData/testdata.yaml")
+    @data(*custLogger.read_data_from_excel("F:\\DesktopC\\PythonUltimateCourse\\SoftwareTesting\\TestGoogleWebsite\\TestData\\testdata.xlsx",sheet="Sheet1"))
+    @unpack
     def test_search_quantity(self,search_query):
         # self.driver = setup
         # test 2: top suggested link contains the searched word atleast 5 times
