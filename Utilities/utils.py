@@ -3,7 +3,7 @@ import logging
 import csv
 from openpyxl import workbook,load_workbook
 class custLogger:
-    def customlogger(self, loglevel = logging.WARNING):
+    def customlogger(self, loglevel = logging.DEBUG):
         logger_name = inspect.stack()[1][3]
         logger = logging.getLogger(logger_name)
         logger.setLevel(loglevel)

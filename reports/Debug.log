@@ -1,6 +1,157 @@
-2024-03-05 08:49:05,876 - WARNING - TestGoogleSite : found 2250000000 results for Chocolate
-2024-03-05 08:49:17,045 - WARNING - TestGoogleSite : found 6160000000 results for Tea
-2024-03-05 08:49:28,118 - WARNING - TestGoogleSite : found 0 results for lseiugugadisdosnpdfn
-2024-03-05 08:49:44,939 - WARNING - TestGoogleSite : found 1450000000 results for monkey
-2024-03-05 08:50:02,399 - WARNING - TestGoogleSite : found 760000 results for bröd
-2024-03-05 08:50:18,204 - WARNING - TestGoogleSite : found 1560000000 results for BTS
+2024-03-09 16:15:20,515 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:15:24,847 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:15:24,946 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:15:30,439 - INFO - TestGoogleSite : found 0 words matching Chocolate
+2024-03-09 16:15:30,440 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:15:33,586 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:15:37,851 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:15:37,873 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:15:42,201 - INFO - TestGoogleSite : found 2 words matching Tea
+2024-03-09 16:15:42,202 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:15:45,078 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:15:49,562 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:15:49,572 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:15:54,284 - INFO - TestGoogleSite : found 0 words matching lseiugugadisdosnpdfn
+2024-03-09 16:15:54,285 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:16:01,249 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:16:05,513 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:16:06,783 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:16:11,202 - INFO - TestGoogleSite : found 2 words matching monkey
+2024-03-09 16:16:11,203 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:16:14,207 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:16:18,468 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:16:18,489 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:16:24,468 - INFO - TestGoogleSite : found 0 words matching bröd
+2024-03-09 16:16:24,468 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:16:31,311 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:16:35,576 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:16:36,453 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:16:41,697 - INFO - TestGoogleSite : found 22 words matching BTS
+2024-03-09 16:16:41,697 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:16:48,997 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:16:53,295 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:16:53,331 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:16:57,749 - INFO - TestGoogleSite : found 0 words matching port blair
+2024-03-09 16:16:57,749 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:19:11,705 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:19:16,039 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:19:16,686 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:19:21,147 - INFO - TestGoogleSite : found 0 words matching Chocolate
+2024-03-09 16:19:21,147 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:19:24,235 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:19:28,498 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:19:28,519 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:19:33,005 - INFO - TestGoogleSite : found 0 words matching knäcke
+2024-03-09 16:19:33,005 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:19:35,837 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:19:40,165 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:19:40,186 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:19:44,783 - INFO - TestGoogleSite : found 0 words matching lseiugugadisdosnpdfn
+2024-03-09 16:19:44,783 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:19:47,671 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:19:51,949 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:19:53,140 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:19:57,859 - INFO - TestGoogleSite : found 2 words matching monkey
+2024-03-09 16:19:57,860 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:20:00,910 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:20:05,175 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:20:05,198 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:20:09,651 - INFO - TestGoogleSite : found 0 words matching bröd
+2024-03-09 16:20:09,652 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:20:12,538 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:20:16,800 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:20:17,094 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:20:22,687 - INFO - TestGoogleSite : found 22 words matching BTS
+2024-03-09 16:20:22,687 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:20:29,999 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-09 16:20:34,264 - INFO - TestGoogleSite : search page loaded
+2024-03-09 16:20:34,294 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-09 16:20:38,697 - INFO - TestGoogleSite : found 0 words matching port blair
+2024-03-09 16:20:38,697 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:20:41,582 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-09 16:20:41,582 - INFO - TestGoogleSite : Searching for Chocolate...
+2024-03-09 16:20:46,457 - INFO - TestGoogleSite : found 2760000000 results for Chocolate
+2024-03-09 16:20:46,457 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:20:53,834 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-09 16:20:53,834 - INFO - TestGoogleSite : Searching for knäcke...
+2024-03-09 16:20:58,422 - INFO - TestGoogleSite : found 148000 results for knäcke
+2024-03-09 16:20:58,423 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:21:05,584 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-09 16:21:05,585 - INFO - TestGoogleSite : Searching for lseiugugadisdosnpdfn...
+2024-03-09 16:21:10,190 - INFO - TestGoogleSite : found 2 results for lseiugugadisdosnpdfn
+2024-03-09 16:21:10,190 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:21:17,144 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-09 16:21:17,145 - INFO - TestGoogleSite : Searching for monkey...
+2024-03-09 16:21:22,579 - INFO - TestGoogleSite : found 1050000000 results for monkey
+2024-03-09 16:21:22,580 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:21:30,112 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-09 16:21:30,112 - INFO - TestGoogleSite : Searching for bröd...
+2024-03-09 16:21:34,673 - INFO - TestGoogleSite : found 773000 results for bröd
+2024-03-09 16:21:34,674 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:21:41,759 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-09 16:21:41,759 - INFO - TestGoogleSite : Searching for BTS...
+2024-03-09 16:21:48,312 - INFO - TestGoogleSite : found 1460000000 results for BTS
+2024-03-09 16:21:48,313 - INFO - TestGoogleSite : ###################################
+2024-03-09 16:21:55,810 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-09 16:21:55,810 - INFO - TestGoogleSite : Searching for port blair...
+2024-03-09 16:22:00,583 - INFO - TestGoogleSite : found 62300000 results for port blair
+2024-03-09 16:22:00,584 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:21:59,615 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-10 21:22:04,284 - INFO - TestGoogleSite : search page loaded
+2024-03-10 21:22:04,635 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-10 21:22:09,174 - INFO - TestGoogleSite : found 0 words matching Chocolate
+2024-03-10 21:22:09,175 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:22:12,315 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-10 21:22:16,591 - INFO - TestGoogleSite : search page loaded
+2024-03-10 21:22:16,606 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-10 21:22:21,152 - INFO - TestGoogleSite : found 0 words matching knäcke
+2024-03-10 21:22:21,153 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:22:24,200 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-10 21:22:28,746 - INFO - TestGoogleSite : search page loaded
+2024-03-10 21:22:28,759 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-10 21:22:33,421 - INFO - TestGoogleSite : found 0 words matching lseiugugadisdosnpdfn
+2024-03-10 21:22:33,421 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:22:36,411 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-10 21:22:40,701 - INFO - TestGoogleSite : search page loaded
+2024-03-10 21:22:41,210 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-10 21:22:45,708 - INFO - TestGoogleSite : found 2 words matching monkey
+2024-03-10 21:22:45,708 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:22:48,660 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-10 21:22:52,942 - INFO - TestGoogleSite : search page loaded
+2024-03-10 21:22:52,965 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-10 21:22:57,394 - INFO - TestGoogleSite : found 0 words matching bröd
+2024-03-10 21:22:57,394 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:23:00,290 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-10 21:23:04,548 - INFO - TestGoogleSite : search page loaded
+2024-03-10 21:23:05,527 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-10 21:23:10,188 - INFO - TestGoogleSite : found 0 words matching BTS
+2024-03-10 21:23:10,188 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:23:13,467 - INFO - TestGoogleSite : ############# Test 2 ##################
+2024-03-10 21:23:18,987 - INFO - TestGoogleSite : search page loaded
+2024-03-10 21:23:18,998 - INFO - TestGoogleSite : Navigating to top search result
+2024-03-10 21:23:23,385 - INFO - TestGoogleSite : found 0 words matching port blair
+2024-03-10 21:23:23,387 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:23:26,249 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-10 21:23:26,249 - INFO - TestGoogleSite : Searching for Chocolate...
+2024-03-10 21:23:30,890 - INFO - TestGoogleSite : found 2770000000 results for Chocolate
+2024-03-10 21:23:30,891 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:23:37,907 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-10 21:23:37,907 - INFO - TestGoogleSite : Searching for knäcke...
+2024-03-10 21:23:42,440 - INFO - TestGoogleSite : found 139000 results for knäcke
+2024-03-10 21:23:42,441 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:23:49,460 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-10 21:23:49,460 - INFO - TestGoogleSite : Searching for lseiugugadisdosnpdfn...
+2024-03-10 21:23:54,158 - INFO - TestGoogleSite : found 3 results for lseiugugadisdosnpdfn
+2024-03-10 21:23:54,158 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:24:01,176 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-10 21:24:01,177 - INFO - TestGoogleSite : Searching for monkey...
+2024-03-10 21:24:08,942 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-10 21:24:08,947 - INFO - TestGoogleSite : Searching for bröd...
+2024-03-10 21:24:13,581 - INFO - TestGoogleSite : found 826000 results for bröd
+2024-03-10 21:24:13,581 - INFO - TestGoogleSite : ###################################
+2024-03-10 21:24:22,637 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-10 21:24:22,637 - INFO - TestGoogleSite : Searching for BTS...
+2024-03-10 21:24:32,117 - INFO - TestGoogleSite : ############# Test 1 ##################
+2024-03-10 21:24:32,117 - INFO - TestGoogleSite : Searching for port blair...
+2024-03-10 21:24:37,498 - INFO - TestGoogleSite : found 57500000 results for port blair
+2024-03-10 21:24:37,498 - INFO - TestGoogleSite : ###################################
