@@ -5,7 +5,7 @@ This repository contains a test framework based on Page Object Model for website
 
 
 The results are automated and they look like shown below
-<video width = "1920" height="1080" controls src="recording.mp4" title="Title"></video>
+[![Watch the video](image.png)](recording.mp4)
 
 ## How to run
 To run, type one of the following in the commnad line/terminal:
